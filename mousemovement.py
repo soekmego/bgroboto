@@ -4,6 +4,9 @@ import pyautogui
 #corner of the screen
 pyautogui.FAILSAFE = True
 
+width, height = pyautogui.size() #the size function returns two values
+				 #the current width & height of the screen
+				 #both get assigned to the variables
 
 for i in range(10):
     pyautogui.moveTo(100, 100, duration=0.25)
