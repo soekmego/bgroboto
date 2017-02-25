@@ -17,3 +17,16 @@ try:
 	#otherwise the screen might not update the text
 except KeyboardInterrupt:
     print("\nDone.")
+
+# we could wrap this loop in a function, called by the main and
+# make it top level with this interesting technique:
+#
+# def main():
+#     mousePos()
+#
+# if __name__ == "__main__":
+#     main()
+#
+# this makes sure when this script is called by another script as a module,
+# it only uses its functions except main, which only fires when called by
+# itself.
