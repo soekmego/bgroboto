@@ -22,7 +22,7 @@ except KeyboardInterrupt:
 # make it top level with this interesting technique:
 #
 # def main():
-#     mousePos()
+#     mousePos() (example for a function name)
 #
 # if __name__ == "__main__":
 #     main()
