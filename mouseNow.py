@@ -1,4 +1,3 @@
-#! python3
 # mouseNow.py - Displays the mouse cursor's current position.
 #
 
